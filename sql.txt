@@ -1,0 +1,9 @@
+CREATE DATABASE kunstbank CHARSET utf8
+
+CREATE TABLE kunstwerken (
+    kunstwerk_id int not null auto_increment,
+    titel TEXT,
+    kunstenaar_id INT,
+    afbeelding TEXT,
+    Primary key (kunstwerk_id)
+ )
